@@ -1,0 +1,18 @@
+{
+  "id": "margarita",
+  "name": "玛格丽特",
+  "english": "Margarita",
+  "glass": "martini",
+  "method": "shake",
+  "ice": 0,
+  "ingredients": [
+	{"id": "tequila", "amount": 45},
+	{"id": "triple_sec", "amount": 25},
+	{"id": "lime_juice", "amount": 20}
+  ],
+  "garnish": ["salt", "lime"],
+  "target_color": "#E9E3B8",
+  "price": 38,
+  "difficulty": 2,
+  "shake_power": 8
+}

@@ -1,0 +1,7 @@
+{
+  "day": 5,
+  "duration": 165,
+  "goal": 240,
+  "patience": 45,
+  "recipe_pool": ["gin_tonic", "screwdriver", "mojito", "black_russian", "margarita", "blue_lagoon", "old_fashioned", "sidecar", "dry_martini"]
+}

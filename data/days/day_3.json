@@ -1,0 +1,7 @@
+{
+  "day": 3,
+  "duration": 175,
+  "goal": 190,
+  "patience": 50,
+  "recipe_pool": ["gin_tonic", "screwdriver", "mojito", "black_russian", "margarita"]
+}

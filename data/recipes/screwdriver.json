@@ -1,0 +1,16 @@
+{
+  "id": "screwdriver",
+  "name": "螺丝刀",
+  "english": "Screwdriver",
+  "glass": "highball",
+  "method": "build",
+  "ice": 2,
+  "ingredients": [
+    {"id": "vodka", "amount": 45},
+    {"id": "orange_juice", "amount": 120}
+  ],
+  "garnish": ["orange"],
+  "target_color": "#F2A23A",
+  "price": 24,
+  "difficulty": 1
+}

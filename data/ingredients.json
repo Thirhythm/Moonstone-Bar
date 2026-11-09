@@ -1,0 +1,130 @@
+{
+  "gin": {
+    "name": "金酒",
+    "color": "#DCEFE4",
+    "bottle": "#3F6E5C",
+    "rate": 32,
+    "kind": "spirit"
+  },
+  "vodka": {
+    "name": "伏特加",
+    "short": "伏特",
+    "color": "#E6EEF2",
+    "bottle": "#5B6E8C",
+    "rate": 32,
+    "kind": "spirit"
+  },
+  "rum": {
+    "name": "朗姆",
+    "color": "#E8D3A0",
+    "bottle": "#8A5A32",
+    "rate": 32,
+    "kind": "spirit"
+  },
+  "tequila": {
+    "name": "龙舌兰",
+    "short": "龙舌",
+    "color": "#E9E3C8",
+    "bottle": "#7C6A3A",
+    "rate": 32,
+    "kind": "spirit"
+  },
+  "whiskey": {
+    "name": "威士忌",
+    "short": "威士",
+    "color": "#C47A2C",
+    "bottle": "#8E4A22",
+    "rate": 32,
+    "kind": "spirit"
+  },
+  "brandy": {
+    "name": "白兰地",
+    "short": "白兰",
+    "color": "#C8873C",
+    "bottle": "#7A3E22",
+    "rate": 32,
+    "kind": "spirit"
+  },
+  "tonic_water": {
+    "name": "汤力水",
+    "short": "汤力",
+    "color": "#CDE8E4",
+    "bottle": "#3F7C86",
+    "rate": 48,
+    "kind": "mixer"
+  },
+  "soda": {
+    "name": "苏打水",
+    "short": "苏打",
+    "color": "#CFE9EE",
+    "bottle": "#4A7C8E",
+    "rate": 48,
+    "kind": "mixer"
+  },
+  "orange_juice": {
+    "name": "橙汁",
+    "color": "#F2A23A",
+    "bottle": "#C77A24",
+    "rate": 48,
+    "kind": "mixer"
+  },
+  "lime_juice": {
+    "name": "青柠汁",
+    "short": "青柠",
+    "color": "#B9D96A",
+    "bottle": "#5E8A32",
+    "rate": 24,
+    "kind": "mixer"
+  },
+  "triple_sec": {
+    "name": "君度",
+    "color": "#E8C978",
+    "bottle": "#B08A3E",
+    "rate": 28,
+    "kind": "liqueur"
+  },
+  "bitters": {
+    "name": "苦精",
+    "color": "#B0402C",
+    "bottle": "#6E2A20",
+    "rate": 12,
+    "kind": "liqueur"
+  },
+  "sugar": {
+    "name": "糖浆",
+    "color": "#F2E8CF",
+    "bottle": "#A89060",
+    "rate": 20,
+    "kind": "mixer"
+  },
+  "mint": {
+    "name": "薄荷",
+    "color": "#7FC23E",
+    "bottle": "#3F7C34",
+    "rate": 12,
+    "kind": "mixer"
+  },
+  "vermouth": {
+    "name": "味美思",
+    "short": "味美",
+    "color": "#D8C08A",
+    "bottle": "#6E5A3A",
+    "rate": 24,
+    "kind": "liqueur"
+  },
+  "coffee_liqueur": {
+    "name": "咖啡利口酒",
+    "short": "咖啡",
+    "color": "#5A3A2C",
+    "bottle": "#3A2418",
+    "rate": 24,
+    "kind": "liqueur"
+  },
+  "blue_curacao": {
+    "name": "蓝橙",
+    "color": "#4A8FE8",
+    "bottle": "#2C5AA8",
+    "rate": 28,
+    "kind": "liqueur"
+  }
+}

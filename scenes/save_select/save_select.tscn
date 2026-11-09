@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://opxrp3e0ryh3"]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/night_backdrop.tscn" id="1_bg"]
+[ext_resource type="Script" uid="uid://dltpghx00e1iy" path="res://scripts/save_select.gd" id="2_select"]
+[ext_resource type="Script" uid="uid://d038fhw62v1xw" path="res://scripts/ui/hover_button.gd" id="3_hover"]
+[ext_resource type="PackedScene" path="res://scenes/ui/confirm_dialog.tscn" id="4_confirm"]
+
+[node name="SaveSelect" type="Control" unique_id=235301358]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_select")
+
+[node name="NightBackdrop" parent="." unique_id=1483521337 instance=ExtResource("1_bg")]
+layout_mode = 1
+moon_position = Vector2(0.9, 0.1)
+star_count = 50
+
+[node name="Vignette" type="ColorRect" parent="." unique_id=1571493389]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.01, 0.02, 0.05, 0.24)
+
+[node name="Margin" type="MarginContainer" parent="." unique_id=109078273]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 16
+
+[node name="Content" type="VBoxContainer" parent="Margin" unique_id=668539011]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Header" type="VBoxContainer" parent="Margin/Content" unique_id=744432142]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Title" type="Label" parent="Margin/Content/Header" unique_id=1289943812]
+layout_mode = 2
+theme_type_variation = &"PageTitle"
+text = "选择存档"
+
+[node name="Divider" type="ColorRect" parent="Margin/Content" unique_id=2060710341]
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+color = Color(0.46, 0.58, 0.76, 0.45)
+
+[node name="SlotList" type="GridContainer" parent="Margin/Content" unique_id=2078958387]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+columns = 2
+
+[node name="Spacer" type="Control" parent="Margin/Content" unique_id=1496977789]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Footer" type="HBoxContainer" parent="Margin/Content" unique_id=736675406]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="BackButton" type="Button" parent="Margin/Content/Footer" unique_id=743913049]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 26)
+layout_mode = 2
+size_flags_vertical = 4
+theme_type_variation = &"GhostButton"
+text = "返回主菜单"
+script = ExtResource("3_hover")
+
+[node name="Notice" type="Label" parent="." unique_id=560521533]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0)
+z_index = 40
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -42.0
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_type_variation = &"Toast"
+horizontal_alignment = 1
+
+[node name="ConfirmDialog" parent="." unique_id=494324910 instance=ExtResource("4_confirm")]
+unique_name_in_owner = true
+layout_mode = 1

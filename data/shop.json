@@ -1,0 +1,12 @@
+{
+  "items": [
+    {"recipe": "mojito", "price": 60, "available_day": 2},
+    {"recipe": "black_russian", "price": 70, "available_day": 3},
+    {"recipe": "margarita", "price": 90, "available_day": 3},
+    {"recipe": "blue_lagoon", "price": 100, "available_day": 4},
+    {"recipe": "old_fashioned", "price": 120, "available_day": 4},
+    {"recipe": "sidecar", "price": 130, "available_day": 5},
+    {"recipe": "dry_martini", "price": 150, "available_day": 5},
+    {"recipe": "manhattan", "price": 180, "available_day": 6}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "manhattan",
+  "name": "曼哈顿",
+  "english": "Manhattan",
+  "glass": "martini",
+  "method": "stir",
+  "ice": 0,
+  "ingredients": [
+	{"id": "whiskey", "amount": 50},
+	{"id": "vermouth", "amount": 20},
+	{"id": "bitters", "amount": 5}
+  ],
+  "garnish": ["orange"],
+  "target_color": "#B85A2C",
+  "price": 48,
+  "difficulty": 3,
+  "stir_turns": 4
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dry_martini",
+  "name": "干马天尼",
+  "english": "Dry Martini",
+  "glass": "martini",
+  "method": "stir",
+  "ice": 0,
+  "ingredients": [
+	{"id": "gin", "amount": 60},
+	{"id": "vermouth", "amount": 10}
+  ],
+  "garnish": ["lime"],
+  "target_color": "#E8E4D0",
+  "price": 44,
+  "difficulty": 2,
+  "stir_turns": 3
+}

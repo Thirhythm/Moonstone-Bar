@@ -1,0 +1,18 @@
+{
+  "id": "blue_lagoon",
+  "name": "蓝色珊瑚礁",
+  "english": "Blue Lagoon",
+  "glass": "highball",
+  "method": "build",
+  "ice": 2,
+  "ingredients": [
+	{"id": "vodka", "amount": 40},
+	{"id": "blue_curacao", "amount": 20},
+	{"id": "lime_juice", "amount": 15},
+	{"id": "soda", "amount": 90}
+  ],
+  "garnish": ["lime"],
+  "target_color": "#5FA8E0",
+  "price": 36,
+  "difficulty": 1
+}

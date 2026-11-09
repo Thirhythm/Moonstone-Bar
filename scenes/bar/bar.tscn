@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://joebq4kf3t4c"]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/night_backdrop.tscn" id="1_bg"]
+[ext_resource type="Script" uid="uid://b4dfnljyse27g" path="res://scripts/bar/bar_game.gd" id="2_bar"]
+
+[node name="Bar" type="Control" unique_id=400718381]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_bar")
+
+[node name="NightBackdrop" parent="." unique_id=1303198463 instance=ExtResource("1_bg")]
+layout_mode = 1
+moon_position = Vector2(0.68, 0.16)
+show_counter = false
+star_count = 55
+
+[node name="Vignette" type="ColorRect" parent="." unique_id=1356916361]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.01, 0.02, 0.05, 0.2)

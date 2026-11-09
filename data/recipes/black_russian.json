@@ -1,0 +1,16 @@
+{
+  "id": "black_russian",
+  "name": "黑俄罗斯",
+  "english": "Black Russian",
+  "glass": "rocks",
+  "method": "build",
+  "ice": 2,
+  "ingredients": [
+	{"id": "vodka", "amount": 50},
+	{"id": "coffee_liqueur", "amount": 20}
+  ],
+  "garnish": [],
+  "target_color": "#3A2418",
+  "price": 32,
+  "difficulty": 1
+}

@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "regular",
+      "name": "常客",
+      "patience_mult": 1.0,
+      "recipe_pool": "any",
+      "weight": 4,
+      "min_day": 1,
+      "variant": 0,
+      "color": "#9AA7C0"
+    },
+    {
+      "id": "hurried",
+      "name": "急客",
+      "patience_mult": 0.75,
+      "recipe_pool": "simple",
+      "weight": 3,
+      "min_day": 1,
+      "variant": 1,
+      "color": "#F0B95E"
+    },
+    {
+      "id": "connoisseur",
+      "name": "品酒客",
+      "patience_mult": 1.35,
+      "recipe_pool": "complex",
+      "weight": 2,
+      "min_day": 2,
+      "variant": 2,
+      "color": "#7FE0C4"
+    },
+    {
+      "id": "nightowl",
+      "name": "夜归人",
+      "patience_mult": 1.15,
+      "recipe_pool": "any",
+      "weight": 2,
+      "min_day": 3,
+      "variant": 3,
+      "color": "#F6E3B4"
+    }
+  ]
+}

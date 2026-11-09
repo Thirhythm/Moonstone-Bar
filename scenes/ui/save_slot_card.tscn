@@ -1,0 +1,123 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/save_slot_card.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/ui/hover_button.gd" id="2_hover"]
+[ext_resource type="Texture2D" path="res://assets/art/moonstone.png" id="3_moonstone"]
+
+[node name="SaveSlotCard" type="PanelContainer"]
+custom_minimum_size = Vector2(0, 90)
+size_flags_horizontal = 3
+theme_type_variation = &"CardPanel"
+script = ExtResource("1_script")
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 7
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 7
+
+[node name="Content" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="Top" type="HBoxContainer" parent="Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="Badge" type="PanelContainer" parent="Margin/Content/Top"]
+custom_minimum_size = Vector2(28, 28)
+layout_mode = 2
+size_flags_vertical = 4
+theme_type_variation = &"BadgePanel"
+
+[node name="Center" type="CenterContainer" parent="Margin/Content/Top/Badge"]
+layout_mode = 2
+
+[node name="SlotNumber" type="Label" parent="Margin/Content/Top/Badge/Center"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"SlotNumber"
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Info" type="VBoxContainer" parent="Margin/Content/Top"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_override_constants/separation = 0
+
+[node name="TopLine" type="HBoxContainer" parent="Margin/Content/Top/Info"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="SlotTitle" type="Label" parent="Margin/Content/Top/Info/TopLine"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"SlotTitle"
+text = "存档 1"
+
+[node name="StateLabel" type="Label" parent="Margin/Content/Top/Info/TopLine"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"Hint"
+text = "空存档"
+
+[node name="DetailRow" type="HBoxContainer" parent="Margin/Content/Top/Info"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="DetailLabel" type="Label" parent="Margin/Content/Top/Info/DetailRow"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"SlotDetail"
+text = ""
+
+[node name="MoneyIcon" type="TextureRect" parent="Margin/Content/Top/Info/DetailRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("3_moonstone")
+texture_filter = 1
+stretch_mode = 5
+mouse_filter = 2
+tooltip_text = "月亮石"
+
+[node name="MoneyValue" type="Label" parent="Margin/Content/Top/Info/DetailRow"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"SlotDetail"
+text = "0"
+
+[node name="MetaLabel" type="Label" parent="Margin/Content/Top/Info"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"Hint"
+text = ""
+clip_text = true
+text_overrun_behavior = 3
+
+[node name="Actions" type="HBoxContainer" parent="Margin/Content"]
+layout_mode = 2
+alignment = 2
+theme_override_constants/separation = 4
+
+[node name="PrimaryButton" type="Button" parent="Margin/Content/Actions"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 24)
+layout_mode = 2
+theme_type_variation = &"PrimaryButton"
+text = "新建"
+script = ExtResource("2_hover")
+
+[node name="DeleteButton" type="Button" parent="Margin/Content/Actions"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(50, 24)
+layout_mode = 2
+theme_type_variation = &"DangerButton"
+text = "删除"
+script = ExtResource("2_hover")

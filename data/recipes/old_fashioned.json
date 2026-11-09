@@ -1,0 +1,18 @@
+{
+  "id": "old_fashioned",
+  "name": "古典",
+  "english": "Old Fashioned",
+  "glass": "rocks",
+  "method": "stir",
+  "ice": 1,
+  "ingredients": [
+    {"id": "whiskey", "amount": 50},
+    {"id": "sugar", "amount": 10},
+    {"id": "bitters", "amount": 5}
+  ],
+  "garnish": ["orange"],
+  "target_color": "#C87F36",
+  "price": 36,
+  "difficulty": 2,
+  "stir_turns": 4
+}

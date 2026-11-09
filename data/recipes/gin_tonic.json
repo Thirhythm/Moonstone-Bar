@@ -1,0 +1,17 @@
+{
+  "id": "gin_tonic",
+  "name": "金汤力",
+  "english": "Gin & Tonic",
+  "glass": "highball",
+  "method": "build",
+  "ice": 2,
+  "ingredients": [
+	{"id": "gin", "amount": 45},
+	{"id": "tonic_water", "amount": 90},
+	{"id": "lime_juice", "amount": 15}
+  ],
+  "garnish": ["lime"],
+  "target_color": "#E3EBC8",
+  "price": 26,
+  "difficulty": 1
+}
